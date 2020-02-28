@@ -1,0 +1,14 @@
+{
+  "apps": {
+    "name": "fileserver",
+    "script": "server/app.js",
+    "watch": true,
+    "ignore_watch": [
+      "node_modules",
+      "logs"
+    ],
+    "error_file": "server/logs/error.log",
+    "out_file": "server/logs/out.log",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss"
+  }
+}
